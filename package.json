@@ -1,0 +1,29 @@
+{
+  "name": "npm-dependencies-datation",
+  "version": "1.0.0",
+  "description": "pull out package.json & bower.jsn dependencies and return the date of the dependencies (the latest one fulfilling the semver tag), as well as the most recent package dates and version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexmasselot/npm-dependencies-datation.git"
+  },
+  "keywords": [
+    "npm",
+    "packages"
+  ],
+  "author": "amasselot@octo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmasselot/npm-dependencies-datation/issues"
+  },
+  "homepage": "https://github.com/alexmasselot/npm-dependencies-datation#readme",
+  "dependencies": {
+    "graceful-js": "^1.0.0",
+    "lodash": "^4.17.4",
+    "s-ago": "^1.1.0",
+    "semver": "^5.4.1"
+  }
+}
