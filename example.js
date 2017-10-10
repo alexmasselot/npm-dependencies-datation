@@ -14,10 +14,11 @@ npmDependenciesDatation.getAll(projectDir)
             if (dep.latest) {
                 line += '\t' + dep.latest.version + '\t' + dep.latest.ago;// +'\t'+dep.latest.time
             }
-            if(dep.latestFullfilled && dep.latest){
-                line+='\t'+ Math.round(((dep.latest.time.getTime()-dep.latestFullfilled.time.getTime())/(24*3600*1000)));
+            if (dep.latestFullfilled && dep.latest) {
+                line += '\t' + Math.round(((dep.latest.time.getTime() - dep.latestFullfilled.time.getTime()) / (24 * 3600 * 1000)));
             }
 
             console.log(line);
         })
-    });
+    })
+    .catch((err) => console.error(err));

@@ -1,6 +1,6 @@
 {
   "name": "npm-dependencies-datation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pull out package.json & bower.jsn dependencies and return the date of the dependencies (the latest one fulfilling the semver tag), as well as the most recent package dates and version",
   "main": "index.js",
   "scripts": {
