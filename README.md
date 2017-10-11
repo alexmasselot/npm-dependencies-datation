@@ -1,4 +1,4 @@
-#npm-dependencies-datation.js
+#index.js
 
 A npm package I have downloaded (or working on) has dependencies. Cool, but how old are they?
 
@@ -19,7 +19,7 @@ Finally, a promise returns a lit of all packages, there dependencies, the latest
 
 An example with a tabular output is available as example.js. But here is the idea:
 
-    const npmDependenciesDatation = require('./npm-dependencies-datation');
+    const npmDependenciesDatation = require('npm-dependencies-datation');
     
     npmDependenciesDatation.getAll(projectDir)
         .then((deps) => {

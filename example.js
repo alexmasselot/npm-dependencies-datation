@@ -1,5 +1,5 @@
 "use strict"
-const npmDependenciesDatation = require('./npm-dependencies-datation');
+const npmDependenciesDatation = require('npm-dependencies-datation');
 const process = require('process');
 
 const projectDir = process.argv[2];
